@@ -77,11 +77,12 @@ body {
     display: inline-block;
     float: left;
     width: 55%;  
+    position: relative
 }
 
 .left-column.fa {
-    display: inline-block;
-    float: left;
+    /* display: inline-block; */
+    /* float: left; */
 }
 
 .left-column > img {
@@ -89,6 +90,34 @@ body {
     float: left;
     padding: 20px;
     margin-left: 10px;
+}
+
+
+.fa > button {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top:225px;
+    border: none;
+    border-radius: 22px;
+    background-color: #FF5E61;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.fa > button:first-child {
+    left: 0px;
+    margin-left: 24px;
+    
+}
+
+.fa > button:last-child {
+    right: 0;
+    margin-right: 70px;
 }
 
 .right-column {
@@ -168,7 +197,7 @@ span {
     width: 100%;
 }
 
-button {
+.button > button {
     background-color: #FF5E61;
     border: none;
     color: white;
@@ -176,5 +205,6 @@ button {
     font-size: 18px;
     line-height: 20px;
     border-radius: 20px;
-    margin-top: 25px;   
+    margin-top: 25px; 
+    cursor: pointer;  
 }
