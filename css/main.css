@@ -13,7 +13,6 @@ body {
 }
 
 .top-part {
-    display: inline-block;
     float: left;
     width: 1000px;
     margin-left: calc((100% - 1000px) / 2);
@@ -22,7 +21,6 @@ body {
 }
 
 .top-part > img {
-    display: inline-block;
     float: left; 
     height: 20px;
     margin-bottom: 10px;
@@ -31,16 +29,14 @@ body {
 }
 
 .navigation {
-    display: inline-block;
     float: right;
     width: 45%;
     margin-top: 30px; 
 }
 
+
 .topmid-links {
-    display: inline-block;
     float: left;
-    
 }
 
 .topmid-links > a {
@@ -52,8 +48,10 @@ body {
     font-weight: bold;
 }
 
+.topmid-links > a:hover {
+   color: #FF5E61; 
+}
 .icons {
-    display: inline-block;
     float: right;
     margin-right: 20px;
     margin-top: 2px;
@@ -65,8 +63,11 @@ body {
     color: #535353;                   
 }
 
+.icons > i:hover {
+    color: black;
+}
+
 .container {
-    display: inline-block;
     float: left;
     width: 1000px;
     margin-left: calc((100% - 1000px) / 2);
@@ -74,24 +75,16 @@ body {
 }
 
 .left-column {
-    display: inline-block;
     float: left;
     width: 55%;  
     position: relative
 }
 
-.left-column.fa {
-    /* display: inline-block; */
-    /* float: left; */
-}
-
 .left-column > img {
-    display: inline-block;
     float: left;
     padding: 20px;
     margin-left: 10px;
 }
-
 
 .fa > button {
     position: absolute;
@@ -99,20 +92,21 @@ body {
     height: 46px;
     top:225px;
     border: none;
-    border-radius: 22px;
+    border-radius: 23px;
     background-color: #FF5E61;
-    font-size: 26px;
+    font-size: 30px;
+    font-weight: bold;
     color: white;
     cursor: pointer;
 }
 
-
-
+.fa > button:hover {
+    background-color: #e93b3e;
+}
 
 .fa > button:first-child {
     left: 0px;
     margin-left: 24px;
-    
 }
 
 .fa > button:last-child {
@@ -121,7 +115,6 @@ body {
 }
 
 .right-column {
-    display: inline-block;
     float: left;
     width: 45%;
     padding: 10px;
@@ -149,7 +142,6 @@ p {
 }
 
 .nutrition {
-    display: inline-block;
     float: left;
     width: 40%;
 }
@@ -162,7 +154,6 @@ h3 {
 }
 
 ul {
-    display: inline-block;
     float: left;
     width: 100%;
     line-height: 28px;
@@ -179,20 +170,16 @@ span {
 
 
 .contents {
-    display: inline-block;
     float: left;
     width: 60%;
 }
 
 .contents > img {
-    display: inline-block;
     float: left;
     padding: 10px 15px 10px 0;
 }
 
-
 .button {
-    display: inline-block;
     float: left;
     width: 100%;
 }
@@ -207,4 +194,8 @@ span {
     border-radius: 20px;
     margin-top: 25px; 
     cursor: pointer;  
+}
+
+.button > button:hover {
+    background-color: #e93b3e; 
 }
