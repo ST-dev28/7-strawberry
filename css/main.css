@@ -8,8 +8,8 @@ body * {
 }
 
 body {
-    background-color: black;
-    margin-top: 25vh;
+    background-color:white;
+   
 }
 
 .top-part {
@@ -111,7 +111,7 @@ body {
 
 .fa > button:last-child {
     right: 0;
-    margin-right: 70px;
+    margin-right: 69px;
 }
 
 .right-column {
